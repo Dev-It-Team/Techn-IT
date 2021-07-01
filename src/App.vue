@@ -4,7 +4,18 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
+  <Footer />
 </template>
+
+<script lang="ts">
+import Footer from '@devitteam/footer'
+
+export default {
+    components: {
+        Footer,
+    },
+}
+</script>
 
 <style>
 #app {
