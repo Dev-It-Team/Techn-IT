@@ -7,7 +7,7 @@
   <Footer />
 </template>
 
-<script lang="ts">
+<script>
 import Footer from '@devitteam/footer'
 
 export default {
